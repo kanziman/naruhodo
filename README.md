@@ -1,16 +1,28 @@
-# taki
+# Japanese Learning App
 
-A new Flutter project.
+![Japanese Learning App](assets/images/naruhodo.png)
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+**Interactive Learning Tools**: Dive into learning with interactive flashcards that reinforce memory retention and enable quick revision of vocabulary and phrases. Our comprehensive learning is based on context learning, providing heaps of sentences with sound.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Interactive Flashcards**: Enhance your memory retention with interactive flashcards.
+- **Context Based Learning**: Learn vocabulary and phrases within the context of full sentences, complete with audio.
+- **Speaking Test**: Test your speaking skills to improve quickly.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Links
+
+- **GitHub Repository**: [Japanese Learning App](https://github.com/kanziman/naruhodo)
+- **App Store**: [Download on the App Store](https://apps.apple.com/us/app/naruhodo/id6502181176)
+
+## Screenshots
+
+<p float="left">
+  <img src="assets/images/01.png" alt="App Screenshot" width="200"/>
+  <img src="assets/images/03.png" alt="App Screenshot" width="200"/>
+  <img src="assets/images/04.png" alt="App Screenshot" width="200"/>
+  <img src="assets/images/05.png" alt="App Screenshot" width="200"/>
+  <img src="assets/images/07.png" alt="App Screenshot" width="200"/>
+</p>
