@@ -21,8 +21,11 @@
 
 <p float="left">
   <img src="assets/images/01.png" alt="App Screenshot" width="200"/>
+  <img src="assets/images/02.png" alt="App Screenshot" width="200"/>
   <img src="assets/images/03.png" alt="App Screenshot" width="200"/>
   <img src="assets/images/04.png" alt="App Screenshot" width="200"/>
   <img src="assets/images/05.png" alt="App Screenshot" width="200"/>
+  <img src="assets/images/06.png" alt="App Screenshot" width="200"/>
   <img src="assets/images/07.png" alt="App Screenshot" width="200"/>
+  <img src="assets/images/08.png" alt="App Screenshot" width="200"/>
 </p>
