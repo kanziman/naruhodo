@@ -8,14 +8,13 @@
 
 ## Features
 
-- **Internationalization (Intl Package)**: Supports multiple languages using the `intl` package.
-- **Theming**: Supports both dark and light modes.
+- **Internationalization (Intl Package)**: Supports English/Korean using the `intl` package.
+- **Theming**: Supports both `Dark and Light` modes.
 - **Responsive UI**: Adapts to different screen sizes and orientations.
 - **State Management**: Uses the `provider` package for state management.
 - **Speech Recognition (speech_to_text)**: Integrates speech-to-text functionality using the `speech_to_text` package.
 
-
-## Technology Stack
+## Tech Stack
 
 - **Front-End**: Flutter, Dart
 - **Back-End**: Firebase
@@ -23,6 +22,12 @@
 ## Links
 
 - **App Store**: [Download on the App Store](https://apps.apple.com/us/app/naruhodo/id6502181176)
+
+## Test
+
+<img src="assets/images/testing.png" alt="Japanese Learning App" width="200"/>
+
+
 
 ## Screenshots
 
