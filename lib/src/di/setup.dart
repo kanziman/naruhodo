@@ -1,16 +1,15 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:naruhodo/src/repository/voca_repository.dart';
 import 'package:naruhodo/src/repository/word_repository.dart';
-import 'package:naruhodo/src/service/admin_service.dart';
 import 'package:naruhodo/src/service/auth_service.dart';
 import 'package:naruhodo/src/service/category_service.dart';
 import 'package:naruhodo/src/service/lang_service.dart';
+import 'package:naruhodo/src/service/learning_service.dart';
 import 'package:naruhodo/src/service/nav_service.dart';
 import 'package:naruhodo/src/service/review_service.dart';
 import 'package:naruhodo/src/service/speak_service.dart';
 import 'package:naruhodo/src/service/theme_service.dart';
 import 'package:naruhodo/src/service/tts_service.dart';
-import 'package:naruhodo/src/service/learning_service.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 
@@ -52,7 +51,7 @@ List<SingleChildWidget> dependentModels = [
       vocaRepository: Provider.of<VocaRepository>(context, listen: false),
     ),
     update: (context, vocaRepository, reviewService) => ReviewService(
-      vocaRepository : vocaRepository,
+      vocaRepository: vocaRepository,
     ),
   ),
 ];
@@ -73,9 +72,6 @@ List<SingleChildWidget> viewModels = [
   ),
   ChangeNotifierProvider<NavService>(
     create: (context) => NavService(),
-  ),
-  ChangeNotifierProvider<AdminService>(
-    create: (context) => AdminService(),
   ),
   ChangeNotifierProvider<SpeakService>(
     create: (context) => SpeakService()..initSpeech(),
