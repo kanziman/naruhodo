@@ -10,7 +10,7 @@ import 'package:naruhodo/src/service/review_service.dart';
 import 'package:naruhodo/src/service/speak_service.dart';
 import 'package:naruhodo/src/service/theme_service.dart';
 import 'package:naruhodo/src/service/tts_service.dart';
-import 'package:naruhodo/src/service/word_service.dart';
+import 'package:naruhodo/src/service/learning_service.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 
@@ -49,10 +49,10 @@ List<SingleChildWidget> dependentModels = [
   ),
   ChangeNotifierProxyProvider<VocaRepository, ReviewService>(
     create: (context) => ReviewService(
-      Provider.of<VocaRepository>(context, listen: false),
+      vocaRepository: Provider.of<VocaRepository>(context, listen: false),
     ),
     update: (context, vocaRepository, reviewService) => ReviewService(
-      vocaRepository,
+      vocaRepository : vocaRepository,
     ),
   ),
 ];

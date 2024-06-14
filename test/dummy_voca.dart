@@ -40,6 +40,17 @@ abstract class DummyVoca {
       "quiz": {"ko": "맛", "en": "taste"}
     },
     {
+        "id": "aCng86jEU3yPiToHAWqM",
+        "topic": "N4",
+        "category": "Food",
+        "voca": "味(あじ)",
+        "type": "noun",
+        "expression": "このスープの味がとても良(よ)いです。",
+        "vocaMean": "taste",
+        "meaning": "The taste of this soup is very good.",
+        "quiz": "taste"
+    },
+    {
       "id": "hDmb97kFG4yQiTpIBXrN",
       "topic": "N3",
       "category": "Animals",

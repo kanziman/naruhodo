@@ -1,0 +1,1 @@
+enum AnkiType { keep, hard, good, pass }

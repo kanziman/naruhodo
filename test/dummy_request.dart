@@ -1,4 +1,4 @@
-import 'package:naruhodo/route/route_type.dart';
+import 'package:naruhodo/src/enum/subject_type.dart';
 import 'package:naruhodo/src/model/query_request.dart';
 
 abstract class DummyRequest {
